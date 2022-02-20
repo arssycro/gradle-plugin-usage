@@ -12,8 +12,6 @@ dependencies {
     implementation("org.springframework:spring-context")
 }
 
-apply<com.arssycro.gradle.UberPlugin>()
-
 uber {
     // If you uncomment the following line, the example test class will no longer compile.
     junit()
